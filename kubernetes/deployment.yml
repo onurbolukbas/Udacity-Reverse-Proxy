@@ -16,7 +16,7 @@ spec:
     spec:
       restartPolicy: Always
       containers:
-        - image: harunrst/reverse-proxy
+        - image: onurbolukbas/reverse-proxy
           name: reverseproxy
           imagePullPolicy: Always
           resources:
